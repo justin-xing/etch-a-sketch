@@ -1,0 +1,20 @@
+.tile {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    min-width: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    min-height: 30px;
+}
+
+.active {
+    background-color: black;
+}
